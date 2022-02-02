@@ -1,0 +1,88 @@
+html, 
+body,
+#root {
+  height: 100%;
+}
+.danger-input {
+  border: 2px solid red;
+}
+
+.danger-span {
+  color: red;
+}
+
+.container {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.news-page {
+  display: block;
+  margin: 0 2%;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 15px;
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+  margin: 10px 0;
+}
+
+.news {
+  display: flex;
+  margin-bottom: 10px;
+  border: 1px solid silver;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.news:hover {
+  cursor: pointer;
+  background-color: rgb(236, 236, 236);
+}
+
+.news-detail {
+  display: block;
+  border-radius: 10px;
+  border: 1px solid silver;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.comment-section {
+  display: flex;
+  margin: 10px 0
+}
+
+.comment {
+  display: block;
+  border-radius: 10px;
+  border: 1px solid silver;
+  padding: 5px;
+  width: auto;
+  margin-right: 10px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.input-section {
+  display: block;
+  text-align: center;
+  margin-bottom: 5px;
+}
